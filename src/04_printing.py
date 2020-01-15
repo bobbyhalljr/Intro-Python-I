@@ -14,5 +14,8 @@ z = "I like turtles!"
 print("%s, %s, %s." % (x ,y ,z))
 
 # Use the 'format' string method to print the same thing
+sentence = '{}, {}, {}.'
+print(str(x).format(x), str(y).format(y), str(z).format(z))
 
 # Finally, print the same thing using an f-string
+print(f"{x}, {y}, {z}")
